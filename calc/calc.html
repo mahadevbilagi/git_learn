@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+
+	<link rel="stylesheet" type="text/css" href="calc_style.css"  >
+ <script src="calc_spare.js"></script>
+	
+</head>
+
+
+<body>
+
+
+
+<div class="main">
+	
+	<div id="header"> <h1> CALCULATOR </h1> </div>
+
+
+
+<div id="footer">
+<form name="calci" >
+	 
+
+	 <input type="text" id="scr" name="screen" value=""  >
+
+
+
+
+	
+	<table id="main_table" >
+      <tr>
+      	
+         <td> 
+
+         <input type="button" name="one" value="1" onclick="attach(1)" ></td>
+         <td> <input type="button" name="two" value="2" onclick="attach(2)"></td>
+         <td> <input type="button" name="three" value="3" onclick="attach(3)"></td>
+
+           <td> <input type="button" name="add" value="+"  onclick="attach('+')"></td>
+           <td class="spcl" ><input type="button" name="clear" value="C"  onclick="reset()"> </td>
+        
+        
+             
+      </tr>
+
+
+      <tr>
+      	
+         <td> <input type="button" name="four" value="4" onclick="attach(4)" ></td>
+         <td> <input type="button" name="five" value="5"  onclick="attach(5)"  ></td>
+         <td> <input type="button" name="six" value="6"  onclick="attach(6)"  ></td>
+         <td> <input type="button" name="sub" value="-"   onclick="attach('-')" ></td>
+         <td> <input type="button" name="sub" value="1/x"   onclick="inverse()" ></td>
+        
+        
+             
+      </tr>
+
+      <tr>
+      	
+         <td> <input type="button" name="seven" value="7"  onclick="attach(7)"  ></td>
+         <td> <input type="button" name="eight" value="8"   onclick="attach(8)" ></td>
+         <td> <input type="button" name="nine" value="9"   onclick="attach(9)" ></td>
+          <td> <input type="button" name="mult" value="X"   onclick="attach('*')" ></td>
+           <td class="spcl" > <input type="button" name="equal" value="="  onclick="result()" ></td>
+        
+        
+             
+      </tr>
+
+  <tr>
+      	
+         <td> <input type="button" name="zero" value="0"  onclick="attach(0)"  ></td>
+         <td> <input type="button" name="dot" value="."   onclick="attach('.')" ></td>
+      
+        <td> <input type="button" value="&Sqrt;" name="sqrt"   onclick="root()" /></td> 
+          <td> <input type="button" name="div" value="/"   onclick="attach('/'')" ></td>
+             
+      </tr>
+
+      <tr>
+      	
+         
+       
+       
+             
+      </tr>
+
+     
+
+
+	</table>
+
+
+
+</form>
+
+
+</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+ 
+
+
+ input[type="button"]{
+         background-color: darkgray;
+         padding: 15px;
+         margin: 5px;
+         font-size: 20px;
+
+
+     }
+
+     input[type="text"]{
+
+            background-color: darkgray;
+         padding: 10px;
+         margin: 5px;
+         font-size: 20px;
+          width: 300px;
+
+     }
+
+
+  
+#main_table{
+
+	margin: 10px;
+	padding: 5px;
+  float:center;
+}
+
+
+  .main{
+
+      
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+  }
+
+  #header{
+
+    height: 100px;
+    background-color: royalblue;
+    text-align: center;
+    padding-top:40px;
+    font-size: 20px;
+  
+  }
+
+  #footer{
+
+   
+ margin-left: 30%;
+    margin-right: 30%;
+
+
+
+
+  }
