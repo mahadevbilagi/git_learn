@@ -38,5 +38,5 @@
          var num=eval(document.calci.screen.value);
          var res=1/num;
           document.calci.screen.value=res;
-       }
+           }
 
