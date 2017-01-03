@@ -5,7 +5,7 @@
 
           }
 
-          function result(){
+             function result(){
 
 
           try{
